@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Personal information</legend>
+        <label for="fname">First name:</label>
+        <input type="text" name="fname" required>
+<br>
+<br>
+        <label for="lname">Last name:</label>
+        <input type="text" name="lname" required>
+        <br>
+        <br>
+        <label for="gender">Gender:</label>
+        <input type="radio" name="gender" value="Male">Male
+        <input type="radio" name="gender" value="Female">Female
+
+<br>
+<br>
+
+<label for="Dob">DOB:</label>
+<input type="date" name="Dob">
+<br>
+<br>
+
+
+<label for="country">Country:</label>
+<select name="country">
+    <option value="Sri Lanka">Sri Lanka</option>
+    <option value="India">India</option>
+    <option value="Uganda">Uganda</option>
+    <option value="Maldives">Maldives</option>
+</select>
+
+<input type="search" placeholder="enter keywords">
+<input type="button" value="Search">
+
+
+<br>
+<br>
+</fieldset>
+
+<fieldset>
+    <legend>Interests</legend>
+    <label for="languages">languages:</label>
+<input type="checkbox" name="languages" value="English">English
+<input type="checkbox" name="languages" value="Sinhala">Sinhala
+<input type="checkbox" name="languages" value="Tamil">Tamil
+
+<br>
+<br>
+</fieldset>
+
+<fieldset>
+    <legend>Contact Details</legend>
+<label for="contact">Contact No:</label>
+<input type="text" name="contact">
+<br><br>
+
+<label for="email">email:</label>
+<input type="email">
+<br><br>
+
+<label for="address">Address:</label>
+<textarea name="address" id="address" cols="30" rows="5"></textarea>
+<br>
+<br>
+</fieldset>
+<fieldset>
+    <legend>Password</legend>
+        <label for="pwd">New password:</label>
+        <input type="password" name="pwd">
+        <br>
+        <br>
+        <label for="cpwd">Confirm password:</label>
+        <input type="password" name="cpwd">
+    </fieldset>
+        <br>
+        <br>
+        <input type="submit">
+        <input type="reset">
+        
+    </form>
+    
+</body>
+</html>
